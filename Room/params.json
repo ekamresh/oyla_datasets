@@ -1,0 +1,108 @@
+{
+    "range_min": 0,
+    "range_max": 5000,
+    "ampl_min": 0,
+    "ampl_max": 4096,
+    "x_min": -1500,
+    "x_max": 1500,
+    "y_min": -500,
+    "y_max": 1000,
+    "z_min": 0,
+    "z_max": 5000,
+    "reflectivity_thresh": false,
+    "filter_params": {
+        "median_filter": false,
+        "median_filter_size": 3,
+        "median_filter_iterations": 0,
+        "edge_detection_replace": false,
+        "edge_detection_thresholds": 0,
+        "pcl_outliers2_filter": false,
+        "pcl_outliers_filter": false
+    },
+    "interpolation": "nearest",
+    "quantization_factor": 1,
+    "show_region": false,
+    "show_close_call": false,
+    "show_tracks": false,
+    "show_dist_ampl": true,
+    "show_pcl_axis": false,
+    "pcl_colorize": "Distance",
+    "projection_type": "xz",
+    "third_panel_select": "Distance",
+    "fourth_panel_select": "PCL Projection",
+    "show_bev_grid": false,
+    "bev_show_pcd": false,
+    "bev_grid_spacing": 1000,
+    "distance_threshold": 100,
+    "confidence_threshold": 85,
+    "mount_pitch": 0,
+    "mount_yaw": 0,
+    "mount_roll": 0,
+    "mount_height": 150,
+    "region_x_min": -100,
+    "region_x_max": 100,
+    "region_y_min": -100,
+    "region_y_max": 500,
+    "region_z_min": 500,
+    "region_z_max": 4500,
+    "region_pitch": 0,
+    "region_yaw": 0,
+    "region_roll": 0,
+    "region_points": [
+        [
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0
+        ]
+    ],
+    "azimuth": 0,
+    "elevation": 0,
+    "scale": 1000,
+    "x_translate": 0,
+    "y_translate": 0,
+    "z_translate": 0,
+    "tracked_classes": [
+        "person"
+    ],
+    "tracked_classes_A": [
+        "person"
+    ],
+    "tracked_classes_B": [
+        "person"
+    ]
+}

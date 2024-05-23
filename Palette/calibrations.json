@@ -1,0 +1,31 @@
+{
+  "rgb_scale": 1,
+  "depth_scale": 2,
+  "rgb_translate": [
+    0,
+    0
+  ],
+  "depth_translate": [
+    0,
+    0
+  ],
+  "rgb_crop": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "dist_coeffs": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "fx": 1607,
+  "fy": 1607,
+  "rotation_angle": 0,
+  "rgb_undistort": false,
+  "dc_offset": null,
+  "harmonic_coeff": 0
+}
