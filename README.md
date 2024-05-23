@@ -1,6 +1,6 @@
 # About Dataset
 
-This dataset contains range and color data captured by a novel RGB-D camera. The dataset features three outdoor scenes: a chair, mulch stacks in Home Depot, and a palletw on a driveway. There are two indoor scenes: both of an office. For each depth image, corresponding amplitude and color images are provided. 
+This dataset contains range and color data captured by a novel RGB-D camera. The dataset features three outdoor scenes: a chair, mulch stacks in Home Depot, and a pallete on a driveway. There are two indoor scenes: both of an office. For each depth image, corresponding amplitude and color images are provided. 
 
 ## Data Acquisition 
 
