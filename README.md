@@ -22,7 +22,7 @@ Each of the folders has the following subfolders
 
 A `calibration.ipynb` file in the root directory demonstrates how to transform radial distance (`dist_png`) to Cartesian Z-coordinate (`zmap_png`) using spherical to Cartesian transformation. It also provides the camera's intrinsic parameters for transforming depth data into point clouds.
 
-### Directory Structure 
+## Directory Structure 
 
 ```
 Scene/
