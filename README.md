@@ -1,11 +1,18 @@
 # About Dataset
 
-This dataset contains range and color data captured by a novel RGB-D camera. The dataset features three outdoor scenes: a chair, mulch stacks in Home Depot, and a pallete on a driveway. There are two indoor scenes: both of an office. For each depth image, corresponding amplitude and color images are provided. 
+This dataset contains range and color data captured by a [RGB-D camera](https://patents.google.com/patent/US20210334944A1/). The dataset features three outdoor scenes: a chair, mulch stacks at a store, and a pallete on a driveway. There are two indoor scenes: both of an office. For each depth image, corresponding amplitude and color images are provided. 
+
 
 ## Data Acquisition 
 
-All data in this set was acquired using a novel RGB-D camera that combines a standard RGB camera with an amplitude-modulated continuous wave (AMCW) time-of-flight (ToF) camera. This camera's innovative hardware design allows for the simultaneous generation of aligned RGB and depth data. The native resolutions are 240x320 for depth data and 1440x1920 for RGB data.
+All data in this set was acquired using a novel RGB-D camera that fuses a standard RGB camera with an amplitude-modulated continuous wave (AMCW) time-of-flight (ToF) camera, using a dichoric mirror. Camera's innovative hardware design allows for the simultaneous capture of aligned RGB and depth data. The native resolutions are 240x320 for depth data and 1440x1920 for RGB data.
 
+## Datasets
+- `Chair` outdoor scence, camera static, changes in the multiple captures (oyla_000?.png/jpg) are due to shadows.
+- `Mulch` outdoor scence, camera static, only changes are due to wind, shadows.
+- `Office` indooor scence with a 95% reflectivity board placed at 2m, 4m, 6m, 8m (each capture in its own subfolder). Static camera, there should be minimal changes among multiple captures.
+- `Palette` outdoor scence, camera moving around the palette for full 3D capture
+- `Room` Indoor scence, camera panning to capture the front wall.
 ### Note
 
 Each of the folders has the following subfolders
@@ -13,7 +20,7 @@ Each of the folders has the following subfolders
 - `zmap_png` distance in cartesian Z-coordinate: image plane to object, uint16 format, mm units, at resolution (640x480)
 - `dist_png` radial distance from image plane center to object, uint16 format, mm units, at resolution (640x480)
 - `rgb_jpg` rgb image from optical camera, aligned at resolution (640x480) 
-- `rgb_jpg_native` rgb image at native resolution from optical camera (1920x1440)
+- `rgb_jpg_native` rgb image at native resolution from optical camera (1920x1440) -- this is not there for `Office` dataset. 
 
 **The data from the ToF camera is originally at a 320x240 resolution and has been upsampled using nearest neighbor interpolation to match the 640x480 resolution of the rgb_jpg images**
 
@@ -21,6 +28,7 @@ Each of the folders has the following subfolders
 -`zmap_png` gives the Cartesian Z-coordinate, obtained by transforming the radial distance using the camera's intrinsic parameters
 
 A `calibration.ipynb` file in the root directory demonstrates how to transform radial distance (`dist_png`) to Cartesian Z-coordinate (`zmap_png`) using spherical to Cartesian transformation. It also provides the camera's intrinsic parameters for transforming depth data into point clouds.
+
 
 ## Directory Structure 
 
@@ -51,7 +59,7 @@ Scene/
 ## Authors
 
 [ekamresh](https://github.com/ekamresh)
-
+[raghavsi](https://www.linkedin.com/in/raghavendra-singh-sp/)
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
