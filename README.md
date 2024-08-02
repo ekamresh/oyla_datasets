@@ -8,11 +8,11 @@ This dataset contains range and color data captured by a [RGB-D camera](https://
 All data in this set was acquired using a novel RGB-D camera that fuses a standard RGB camera with an amplitude-modulated continuous wave (AMCW) time-of-flight (ToF) camera, using a dichoric mirror. Camera's innovative hardware design allows for the simultaneous capture of aligned RGB and depth data. The native resolutions are 240x320 for depth data and 1440x1920 for RGB data.
 
 ## Datasets
-- `Chair` outdoor scence, camera static, changes in the multiple captures (oyla_000?.png/jpg) are due to shadows.
-- `Mulch` outdoor scence, camera static, only changes are due to wind, shadows.
-- `Office` indooor scence with a 95% reflectivity board placed at 2m, 4m, 6m, 8m (each capture in its own subfolder). Static camera, there should be minimal changes among multiple captures.
-- `Palette` outdoor scence, camera moving around the palette for full 3D capture
-- `Room` Indoor scence, camera panning to capture the front wall.
+- `Chair` outdoor scene, camera static, changes in the multiple captures (oyla_000?.png/jpg) are due to shadows.
+- `Mulch` outdoor scene, camera static, only changes are due to wind, shadows.
+- `Office` indooor scene with a 95% reflectivity board placed at 2m, 4m, 6m, 8m (each capture in its own subfolder). Static camera, there should be minimal changes among multiple captures.
+- `Palette` outdoor scene, camera moving around the palette for full 3D capture
+- `Room` Indoor scene, camera panning to capture the front wall.
 ### Note
 
 Each of the folders has the following subfolders
