@@ -60,7 +60,6 @@ Scene/
 
 [ekamresh](https://github.com/ekamresh)
 [raghavsi](https://www.linkedin.com/in/raghavendra-singh-sp/)
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
